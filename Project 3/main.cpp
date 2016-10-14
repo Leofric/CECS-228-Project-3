@@ -19,7 +19,7 @@ void initialization(struct Student list[]);
 //function prints menu options to console
 void menu();
 
-//initalize sort functions
+//initalize sort function prototypes
 void sortID(struct Student *list[]);
 void sortName(struct Student *list[]);
 void sortAge(struct Student *list[]);
