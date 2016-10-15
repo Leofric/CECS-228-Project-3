@@ -128,7 +128,7 @@ void initialization(struct Student list[]){
         list[i].birthDay = birthDay;
     }
 }
-
+//Function formats output
 void print(struct Student *list[]){
     printf("%-20s" "%-20s" "%-20s" "%-20s\n", "Student ID", "Name", "Birthday", "Grade");
     char a[20];
